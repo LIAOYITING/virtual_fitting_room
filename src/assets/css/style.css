@@ -1,0 +1,131 @@
+.well h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.well .card {
+  background-color: #eff1f1;
+}
+
+/* USER PROFILE PAGE */
+
+/*BEGIN TAB*/
+.card {
+  padding: 15px;
+  background-color: rgba(214, 224, 226, 0.2);
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* BEGIN MODEL */
+.contain {
+  width: 350px;
+  height: 590px;
+  margin: auto;
+  position: relative;
+  background-image: url("DRESSING ROOM.jpg");
+}
+.bikinitop {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 12%;
+  left: 22%;
+  z-index: 1;
+}
+
+.bikinibottom {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 12%;
+  left: 22%;
+  z-index: 1;
+}
+
+.handbag {
+  width: 500px;
+  height: 1000px;
+  position: relative;
+  bottom: -40.5%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 4;
+}
+
+.feet {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  bottom: -37%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 1;
+}
+
+/* END MODEL */
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.nav-pills .nav-item {
+  width: 140.3px;
+  text-align: center;
+}
+.nav-pills .nav-item .nav-link {
+  border: 1px solid #ccc;
+  border-radius: 0 !important;
+}
+.well {
+  background-color: #eff1f1;
+  border: none;
+}
+
+.card {
+  border: none;
+  padding-top: 30px;
+}
+.card-body h4 {
+  font-weight: 600;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+@media(max-width:768px) {
+  .news li {
+      width: 46%;/*50%記得扣除768px以上的左右margin共4%*/
+  }
+}
+
+@media(max-width:569px) {
+  .news li {
+      width: 96%;/*100%記得扣除768px以上的左右margin共4%*/
+  }
+}
